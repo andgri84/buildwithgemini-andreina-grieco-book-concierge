@@ -1,0 +1,170 @@
+{
+  "catalog_books": [
+    {
+      "cover_url": "https://storage.googleapis.com/andreina-grieco-book-concierge-9513a337097b/covers/regina_cambiante.jpg",
+      "setting": "Regno di Campania, fine Settecento",
+      "genre": "Dark / Epic Fantasy storico",
+      "id": "regina_cambiante",
+      "synopsis": "Sul finire del Settecento, il Regno di Campania vive nel terrore dei cambianti, mutanti emarginati capaci di evolvere e trasformarsi a seconda dei loro desideri reconditi. La principessa Valeria è stata addestrata a combatterli, ma quando il fratello usurpa il trono, scopre che lei stessa sta mutando. Per padroneggiare i suoi poteri dovrà affidarsi al feroce Demone del Lago Fusaro, la cui unica intenzione è trasformare il suo addestramento in un inferno.",
+      "type": "Standalone",
+      "thumbnail_url": "https://storage.googleapis.com/andreina-grieco-book-concierge-9513a337097b/thumbnails/regina_cambiante.jpg",
+      "pages": 320,
+      "title": "La Regina Cambiante",
+      "protagonist": "Principessa Valeria",
+      "publisher": "Plesio Editore",
+      "volume_number": null,
+      "author": "Andreina Grieco",
+      "themes": [
+        "Metamorfosi",
+        "Lotta per il trono",
+        "Mostro vs Umano",
+        "Segreti dinastici"
+      ],
+      "saga": null
+    },
+    {
+      "cover_url": "https://storage.googleapis.com/andreina-grieco-book-concierge-9513a337097b/covers/yohnna_1.jpg",
+      "setting": "Le vaste e spietate terre sabbiose del Baluardo",
+      "genre": "Epic Fantasy / Desert Fantasy",
+      "id": "yohnna_1",
+      "synopsis": "Primo volume della saga che vede protagonista il giovane Yohnna alle prese con le sfide, i misteri e la difesa estrema del Baluardo tra le sabbie aride e le minacce che incombono sulle terre del deserto.",
+      "type": "Saga (Vol. 1)",
+      "thumbnail_url": "https://storage.googleapis.com/andreina-grieco-book-concierge-9513a337097b/thumbnails/yohnna_1.jpg",
+      "pages": 280,
+      "title": "Yohnna e il Baluardo dei Deserti",
+      "protagonist": "Yohnna",
+      "publisher": "Edikit",
+      "volume_number": 1,
+      "author": "Andreina Grieco",
+      "themes": [
+        "Viaggio dell'eroe",
+        "Sopravvivenza e baluardo",
+        "Destino e sabbie"
+      ],
+      "saga": "La Saga di Yohnna"
+    },
+    {
+      "cover_url": "https://storage.googleapis.com/andreina-grieco-book-concierge-9513a337097b/covers/yohnna_2.jpg",
+      "setting": "Oltre il deserto, il richiamo e il mito di Israfil",
+      "genre": "Epic Fantasy / Desert Fantasy",
+      "id": "yohnna_2",
+      "synopsis": "Secondo volume che porta a compimento e approfondisce l'arco narrativo di Yohnna, rivelando la natura e il mistero delle Lacrime di Israfil e le conseguenze delle scelte fatte al Baluardo.",
+      "type": "Saga (Vol. 2)",
+      "thumbnail_url": "https://storage.googleapis.com/andreina-grieco-book-concierge-9513a337097b/thumbnails/yohnna_2.jpg",
+      "pages": 310,
+      "title": "Yohnna e le Lacrime di Israfil",
+      "protagonist": "Yohnna",
+      "publisher": "Edikit",
+      "volume_number": 2,
+      "author": "Andreina Grieco",
+      "themes": [
+        "Mito e rivelazione",
+        "Conflitto epico",
+        "Evoluzione spirituale e sacrifici"
+      ],
+      "saga": "La Saga di Yohnna"
+    }
+  ],
+  "catalog_boxes": [
+    {
+      "is_available": true,
+      "id": "box_baluardo",
+      "book_choice_mode": "one_of",
+      "name": "Box Baluardo",
+      "book_ids": [
+        "yohnna_1",
+        "yohnna_2"
+      ],
+      "cards_included": 1,
+      "base_price": 14.0,
+      "description": "Un volume singolo a scelta tra Yohnna 1 o Yohnna 2 con copia autografata, dedica personalizzata e 1 card da collezione.",
+      "books_display": "Yohnna 1 (oppure Yohnna 2 per chi ha già l'1)"
+    },
+    {
+      "is_available": true,
+      "id": "box_imperatrice",
+      "book_choice_mode": "all",
+      "name": "Box Imperatrice",
+      "book_ids": [
+        "regina_cambiante",
+        "yohnna_1",
+        "yohnna_2"
+      ],
+      "cards_included": 7,
+      "base_price": 30.0,
+      "description": "L'intera bibliografia autografata (tutti e 3 i libri) + set completo di 7 card da collezione.",
+      "books_display": "Tutti e 3 i libri (La Regina Cambiante + Yohnna 1 + Yohnna 2)"
+    },
+    {
+      "is_available": true,
+      "id": "box_principessa",
+      "book_choice_mode": "all",
+      "name": "Box Principessa",
+      "book_ids": [
+        "regina_cambiante"
+      ],
+      "cards_included": 2,
+      "base_price": 18.0,
+      "description": "Copia autografata de La Regina Cambiante con dedica personalizzata + 2 card da collezione esclusive.",
+      "books_display": "La Regina Cambiante"
+    },
+    {
+      "is_available": true,
+      "id": "box_regina",
+      "book_choice_mode": "all",
+      "name": "Box Regina",
+      "book_ids": [
+        "regina_cambiante"
+      ],
+      "cards_included": 5,
+      "base_price": 20.0,
+      "description": "Copia autografata de La Regina Cambiante con dedica personalizzata + set completo di 5 card da collezione.",
+      "books_display": "La Regina Cambiante"
+    },
+    {
+      "is_available": true,
+      "id": "box_sovrano_sabbie",
+      "book_choice_mode": "all",
+      "name": "Box Sovrano delle Sabbie",
+      "book_ids": [
+        "yohnna_1",
+        "yohnna_2"
+      ],
+      "cards_included": 2,
+      "base_price": 26.0,
+      "description": "La duologia completa di Yohnna autografata con dedica personalizzata + 2 card da collezione della saga.",
+      "books_display": "Yohnna e il Baluardo dei Deserti (Vol. 1) + Yohnna e le Lacrime di Israfil (Vol. 2)"
+    },
+    {
+      "is_available": true,
+      "id": "box_troni_deserti",
+      "book_choice_mode": "all",
+      "name": "Box Troni e Deserti",
+      "book_ids": [
+        "regina_cambiante",
+        "yohnna_1"
+      ],
+      "cards_included": 3,
+      "base_price": 32.0,
+      "description": "Entrambi gli esordi autografati con dedica personalizzata + selezione di 3 card da collezione.",
+      "books_display": "La Regina Cambiante + Yohnna e il Baluardo dei Deserti (Vol. 1)"
+    }
+  ],
+  "book_orders": [
+    {
+      "box_name": "Box Imperatrice",
+      "shipping_address": "Via dei matti zero",
+      "customer_name": "Marco Rossi",
+      "box_id": "box_imperatrice",
+      "shipping_method": "Poste Non Tracciato",
+      "status": "In attesa di pagamento/finalizzazione",
+      "notes": "ciao",
+      "created_at": "2026-11-27 11:35:05",
+      "dedication_name": "Marco",
+      "total_price": 30,
+      "order_id": "AG-9516AA97",
+      "payment_choice": "PayPal",
+      "customer_contact": "andgri84@gmail.com"
+    }
+  ]
+}
